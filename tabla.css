@@ -1,0 +1,16 @@
+#tabla {
+    --sotet: #f00;
+    --vilagos: #fff;
+}
+
+.sor {
+    display: flex;
+}
+
+.sotet {
+    background-color: var(--sotet);
+}
+
+.vilagos {
+    background-color: var(--vilagos);
+}

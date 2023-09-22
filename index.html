@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tábla</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+    <label for="mezok">Mezők száma:</label>
+    <input type="range" name="mezok" id="mezok" min="2" max="10" value="4" onchange="General()">
+    <br>
+
+    <label for="szelesseg">Szélesség:</label>
+    <input type="range" name="szelesseg" id="szelesseg" min="20" max="100" value="80" onchange="General()">
+
+    <div id="tabla"></div>
+    
+    <script src="tabla.js"></script>
+</body>
+</html>
